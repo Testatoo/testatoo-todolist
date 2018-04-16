@@ -1,0 +1,18 @@
+= The TodoList
+:author: David Avenante
+:toc: left
+:toclevels: 5
+:numbered: true
+:doctype: book
+:icons: font
+:desc: Todolist Specifications
+
+image::logo.svg[Testatoo,align="center"]
+
+include::intro.adoc[]
+
+include::persona.adoc[]
+
+include::functional_specs.adoc[]
+
+include::ui_specs.adoc[]

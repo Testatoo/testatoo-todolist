@@ -1,0 +1,8 @@
+== Persona
+'''
+=== Anna
+
+image::Anna.jpg[Anna]
+
+*Anna* is a business woman and a very busy mother. +
+She wants to use the Todo List to remember the todo she has to do.

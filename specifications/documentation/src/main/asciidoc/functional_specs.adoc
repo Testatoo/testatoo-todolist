@@ -1,0 +1,56 @@
+== Functional specifications
+'''
+=== Add a todo
+
+=====
+.*User Story*
+*As +++<u>Anna</u>+++, I want to add a new todo in my todo list.*
+
+- I enter the name of the todo and choose to add it
+- The todo is now displayed in the list as unchecked todo
+=====
+
+=====
+.*Sample*
+----
+include::{functional-specs-dir}/add.feature[tags=add_todo]
+----
+=====
+
+=== Check a todo
+
+====
+.*User Story*
+*As +++<u>Anna</u>+++, I want to check a todo in my todo list.*
+
+- The todo list contains an unchecked todo
+- I check this todo
+- The todo is now displayed in the list as checked todo
+====
+
+=====
+.*Sample*
+----
+include::{functional-specs-dir}/check.feature[tags=check_todo]
+----
+=====
+
+=== Uncheck a todo
+
+====
+.*User Story*
+*As +++<u>Anna</u>+++, I want to uncheck a todo in my todo list that had been checked but not really done.*
+
+- The todo list contains a checked todo
+- I uncheck this todo
+- The todo is now dislpayed in the list as unchecked todo
+====
+
+=====
+.*Sample*
+----
+include::{functional-specs-dir}/uncheck.feature[tags=uncheck_todo]
+----
+=====
+
+

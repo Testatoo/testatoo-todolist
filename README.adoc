@@ -1,0 +1,37 @@
+= Testatoo Todolist
+
+Testatoo Todolist Sample
+
+== Installation Steps
+
+    $ git clone https://github.com/Testatoo/testatoo-todolist
+    $ cd testatoo-todolist
+
+=== Start the Web Application
+
+The web application is build with https://aurelia.io/[Aurelia Framework]
+To build the application you need a nodejs ecosystem with npm.
+
+    $ cd webapp
+    $ npm install aurelia-cli -g
+    $ npm install // or yarn
+    $ au run --watch
+
+Navigate to http://localhost:9000
+
+=== Run Specifications
+
+    $ cd specifications
+    $ mvn clean test
+
+==== Generate Documentation
+
+    $ mvn asciidoctor:process-asciidoc
+
+
+
+
+
+
+
+

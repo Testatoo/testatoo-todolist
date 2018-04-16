@@ -1,0 +1,41 @@
+== UI specifications
+'''
+=== General Mockup
+
+The following mockup specifies the general display of the todo list application:
+
+image::app.png[]
+
+=== Application title
+
+=====
+[source,groovy,indent=0]
+[subs="verbatim,attributes"]
+----
+include::{ui-specs-dir}/org/testatoo/bdd/sample/todolist/specifications/SpecificationsTest.groovy[tags=application_title]
+----
+=====
+
+=== Todo Form
+
+image::form.png[]
+
+=====
+[source,groovy,indent=0]
+[subs="verbatim,attributes"]
+----
+include::{ui-specs-dir}/org/testatoo/bdd/sample/todolist/specifications/SpecificationsTest.groovy[tags=form]
+----
+=====
+
+=== Todo List component
+
+image::todo-list.png[]
+
+=====
+[source,groovy,indent=0]
+[subs="verbatim,attributes"]
+----
+include::{ui-specs-dir}/org/testatoo/bdd/sample/todolist/specifications/SpecificationsTest.groovy[tags=todo_list]
+----
+=====

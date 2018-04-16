@@ -1,0 +1,25 @@
+body {
+  background-color: gray;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.todo-footer {
+  background-color: #F4FCE8;
+  padding: 10px 20px;
+}
+
+input {
+ width: 25em !important;
+}
+
+li.checked span:first-child + span:hover {
+  text-decoration: line-through;
+}
+
+li.checked span:first-child {
+  text-decoration: line-through;
+}
